@@ -1,5 +1,14 @@
 # Designing a Virtual Memory Manager!
 
+### To run the code :
+
+LRU implemetation for TLB Replacement Policy! Output data is stored in output.txt
+
+```bash
+    gcc 2017csb1189_lab7.c
+    ./a.out addresses.txt
+```
+
 This project consists of writing a program that translates logical to physical addresses for a virtual address space of size 216 = 65,536 bytes. Your program will read from a file containing logical addresses and, using a TLB as well as a page table, will translate each logical address to its corresponding physical address and output the value of the byte stored at the translated physical address. The goal behind this project is to simulate the steps involved in translating logical to physical addresses.
 
 
