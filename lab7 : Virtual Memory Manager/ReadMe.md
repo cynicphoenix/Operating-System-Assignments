@@ -5,7 +5,7 @@
 LRU implemetation for TLB Replacement Policy! Output data is stored in output.txt
 
 ```bash
-    gcc 2017csb1189_lab7.c
+    gcc virtualMemoryManager.c
     ./a.out addresses.txt
 ```
 
